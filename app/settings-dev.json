@@ -2,19 +2,19 @@
   "public": {
     "features": {
       "useMessaging": {
-        "enabled": false
+        "enabled": true
       },
       "userPanel": {
-        "enabled": false
+        "enabled": true
       },
       "createLevel": {
-        "enabled": false
+        "enabled": true
       },
       "notificationButton": {
-        "enabled": false
+        "enabled": true
       },
       "useShoutAbility": {
-        "enabled": false
+        "enabled": true
       },
       "punchAbility": {
         "enabled": true
@@ -37,15 +37,15 @@
 
     "avatarFallback": "lemverse.png",
 
-    "debug": false,
+    "debug": true,
 
     "defaultReaction": "❤️",
 
     "zoom": {
       "default": 1,
-      "min": 0.6,
-      "max": 1.6,
-      "factor": 0.001,
+      "min": 0.4,
+      "max": 2.0,
+      "factor": 0.002,
       "maxDelta": 100,
       "pinchDelta": 4
     },

@@ -111,3 +111,6 @@ dist
 
 # IntelliJ configuration files
 .idea
+
+app/package-lock.json
+example/docker-compose-prod/jitsi/.env.bak
